@@ -1,7 +1,71 @@
 <!DOCTYPE html>
 <head>
-  <<Examen Parcial
+  <!-- EPPR Examen Parcial del Modulo 3 -->
+  <title> Examen Parcial </title>
+  <style>
+    h1 {
+      background-color: rgba(80,80,80,0.3);
+    }
+    p {
+      background-color: rgba(14,14,14,0.96);
+      color: white;
+    }
+    .LINK {
+      color: #FF0000;
+    }
+    .img {
+      border-radius: 25px;
+      background-image: url(https://www.google.es/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+      background-color: rgba(80,80,80,0.3);
+      padding: 30px;
+      width: 300px;
+      height: 350px;
+    }
+  </style>
 </head>
-<title>
-  Examen Parcial
-</title>
+<body>
+  <div>
+    <!-- Primera parte HTML del examen -->
+      <h1>Aprendiendo HTML</h1>
+      <!-- Header 1 -->
+      <p>
+        Si quieres aprender HTML 5 Hyper Text Markup Language envianos tus datos:
+      </p>
+  </div>
+  <div>
+    <!-- Input Texto -->
+    <form>
+      <label for=nombre>Nombre:</label><br>
+      <input type="text" id="nombre" n="nombre"><br>
+      <label for=apellido>Apellido:</label><br>
+      <input type="text" id="apellido" a="apellido"><br>
+      <br/> <br/>
+    </form>
+  </div>
+  <div>
+    <!-- Input Password -->
+    <from>
+      <label for="username">Nombre de Usuario:</label><br>
+      <input type="text" id="username" name="username"><br>
+      <label for="pwd">Password:</label><br>
+      <input type="password" id="pwd" name="pwd">
+      <br/> <br/>
+    </from>
+  </div>
+  <div>
+    <from>
+      <label for="tag">Selecciona un tag de HTML:</label>
+      <select name="tag" id="tag">
+        <option A="title">title</option>
+        <option B="div">div</option>
+        <option C="strong">strong</option>
+      </select>
+    </from>
+  </div>
+  <div>
+    <p>Busca en Google</p>
+    <a class="LINK" href="https://www.google.es/"> LINK </a>
+    <p class="img"></p>
+  </div>
+</body>
+</html>
